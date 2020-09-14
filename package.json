@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "vk-miniapps-deploy",
+    "clean-source": "rimraf README.md src webroot package.json",
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build"
   },
@@ -23,7 +25,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  },
+  }, 
   "browserslist": {
     "production": [
       ">0.2%",
